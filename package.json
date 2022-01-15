@@ -1,0 +1,12 @@
+{
+  "name": "csgo-assets",
+  "version": "1.0.0",
+  "description": "Various CS:GO images such as map thumbs and icons.",
+  "main": "index.js",
+  "author": "Retr0#1799",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^11.8.2",
+    "jimp": "^0.16.1"
+  }
+}
