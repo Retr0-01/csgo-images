@@ -1,5 +1,5 @@
-const Jimp = require("jimp");
-const got = require("got").default;
+import Jimp from "jimp";
+import got from "got";
 
 (async () => {
 	// Get a list of maps

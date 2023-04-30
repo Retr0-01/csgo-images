@@ -1,12 +1,16 @@
 {
-  "name": "csgo-assets",
+  "name": "csgo-images",
   "version": "1.0.0",
-  "description": "Various CS:GO images such as map thumbs and icons.",
-  "main": "index.js",
+  "description": "Script to generate an image for each CS:GO map.",
+  "exports": "./index.js",
   "author": "Retr0#1799",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
-    "got": "^11.8.2",
-    "jimp": "^0.16.1"
+    "got": "^12.6.0",
+    "jimp": "^0.22.7"
+  },
+  "engines": {
+    "node": ">=14.16"
   }
 }
